@@ -1,0 +1,13 @@
+touch : For create file
+mkdir : For create directory or folder
+git status
+git add .
+git commit -m "Add building"
+git log
+git push : For uploard to Server 
+git pull : For download from Server
+cat code_server.txt : To view data in text file
+git branch : 
+
+-----------------------------------------------------------------------------------
+#

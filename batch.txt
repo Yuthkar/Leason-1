@@ -1,0 +1,24 @@
+-----------------------------------------------------------------------------------
+#remove_address_book_outlook
+@echo off
+setlocal enabledelayedexpansion
+
+cd C:\Users
+
+for /d %%i in (*) do (
+    set "user=%%i"
+    set "outlookPath=C:\Users\!user!\AppData\Local\Microsoft\Outlook\Offline Address Books"
+    
+    if exist "!outlookPath!" (
+        rd /s /q "!outlookPath!"
+        rd /s /q "C:\Users\!user!\AppData\Local\Microsoft\Outlook\Offline Address Books"
+        echo Removed : !user!
+    ) else (
+        echo Not found  : !user!
+    )
+)
+
+endlocal
+
+-----------------------------------------------------------------------------------
+#

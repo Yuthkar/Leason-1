@@ -1,0 +1,1 @@
+rmdir /s /q "C:\Users\%username%\AppData\Local\Microsoft\Outlook\Offline Address Books"
