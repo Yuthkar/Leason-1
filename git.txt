@@ -1,5 +1,6 @@
 touch : For create file
 mkdir : For create directory or folder
+git init : For 
 git status
 git add .
 git commit -m "Add building"
