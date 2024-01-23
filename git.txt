@@ -1,6 +1,8 @@
 touch : For create file
 mkdir : For create directory or folder
-git status
+git init : To view Reinitialized
+git status : check status working directory
+git add index.html : add index
 git add .
 git commit -m "Add building"
 git log
@@ -10,4 +12,4 @@ cat code_server.txt : To view data in text file
 git branch : 
 
 -----------------------------------------------------------------------------------
-#
+#Testing
